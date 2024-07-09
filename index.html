@@ -28,6 +28,21 @@
         h1, h2, h3 {
             color: #333;
         }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
         section {
             margin-bottom: 2rem;
         }
@@ -46,19 +61,27 @@
     <h1>Fotografía Artesanal</h1>
     <p>Newsletter</p>
 </header>
+    <nav>
+        <a href="#seccion1">Artesanal</a>
+        <a href="#seccion2">Reseña</a>
+        <a href="#seccion3">Antotipia</a>
+        <a href="#seccion4">Cianotipia</a>
+        <a href="#seccion5">Construcción de Cámaras </a>
+        <a href="#redes-sociales">Redes Sociales</a>
+    </nav>
 
 <main>
-    <section>
+    <section id="seccion1">
         <h2>Bienvenidos a la Fotografía Artesanal</h2>
         <p>Descubre el encanto de la fotografía artesanal, una práctica que combina creatividad, paciencia y técnicas tradicionales para capturar la belleza del mundo que nos rodea. En este número, exploraremos diferentes aspectos de esta fascinante forma de arte.</p>
     </section>
 
-    <section>
+    <section id="seccion2">
         <h2>Breve Reseña sobre la Fotografía Artesanal</h2>
         <p>La fotografía artesanal es un viaje hacia las raíces de la captura de imágenes. Antes de la era digital, las fotografías se creaban manualmente usando métodos como la cianotipia, el revelado en cuarto oscuro y las cámaras estenopeicas. Esta práctica requiere un conocimiento profundo de los materiales y procesos, pero ofrece una recompensa única: imágenes con una estética y calidad que las técnicas modernas a menudo no pueden replicar.</p>
     </section>
 
-    <section>
+    <section id="seccion3">
         <h2>Antotipia</h2>
         <h3>Proceso de Antotipia:</h3>
         <ol>
@@ -70,7 +93,7 @@
         <p>Este proceso crea imágenes con un encanto único y efímero, ya que las imágenes pueden desvanecerse con el tiempo y la exposición a la luz.</p>
     </section>
 
-    <section>
+    <section id="seccion4">
         <h2>Cianotipia</h2>
         <h3>Proceso de Cianotipia:</h3>
         <ol>
@@ -82,7 +105,7 @@
         <p>La cianotipia es perfecta para crear impresiones botánicas, fotografías y diseños gráficos con un toque artístico y vintage.</p>
     </section>
 
-    <section>
+    <section id="seccion5">
         <h2>Construcción de Cámaras Artesanales</h2>
         <h3>Construcción de una Cámara Estenopeica:</h3>
         <ol>
@@ -95,6 +118,14 @@
         </ol>
         <p>Este proceso te permitirá capturar imágenes con una estética única y te brindará una comprensión más profunda de la fotografía.</p>
     </section>
+            <section id="redes-sociales">
+            <h2>Redes Sociales</h2>
+            <div class="social-links">
+                <a href="https://www.myspaceneo.com" target="_blank">MySpaceNeo</a>
+                <a href="https://www.galaticsocial.com" target="_blank">Galatic Social</a>
+            </div>
+        </section>
+
 </main>
 
 <footer>
